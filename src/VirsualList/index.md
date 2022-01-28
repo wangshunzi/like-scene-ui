@@ -42,7 +42,7 @@ function App() {
           )
         }
     </VirsualList>
-    <button onClick={() => setTotalList([...totalList, totalList.length])}>添加数据</button>
+    <button onClick={() => setTotalList([...totalList, totalList.length+1])}>添加数据</button>
   </div>
 }
 export default App;
