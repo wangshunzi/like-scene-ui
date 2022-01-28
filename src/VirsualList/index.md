@@ -4,9 +4,12 @@ nav:
   path: /components
 ---
 
-## VirsualList
+## 组件介绍
+- 本组件，主要适用于，长列表滚动性能优化：避免加载过多cell；导致卡屏/白屏现象
 
-Demo:
+
+
+## 使用示例:
 
 ```tsx
 import React from 'react';
