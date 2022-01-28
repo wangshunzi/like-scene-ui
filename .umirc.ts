@@ -8,7 +8,7 @@ export default defineConfig({
   outputPath: 'docs-dist',
   mode: 'site',
   base: '/like-ui',
-  publicPath: '/docs-dist/',
+  publicPath: '/like-ui/',
   exportStatic: {},
   // more config: https://d.umijs.org/config
 });
