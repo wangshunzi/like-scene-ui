@@ -17,7 +17,7 @@ nav:
 
 ```tsx
 import React from 'react';
-import { VirsualList } from 'like-design-ui';
+import { VirsualList } from 'like-scene-ui';
 const {useState, useEffect} = React;
 
 
