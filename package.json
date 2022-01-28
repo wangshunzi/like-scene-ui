@@ -1,7 +1,11 @@
 {
-  "private": true,
-  "name": "like-ui",
+  "private": false,
+  "name": "like-scene-ui",
   "version": "1.0.0",
+  "description": "一个高性能的，场景ui组件库",
+  "files": [
+    "es"
+  ],
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
@@ -41,5 +45,9 @@
     "lint-staged": "^10.0.7",
     "prettier": "^2.2.1",
     "yorkie": "^2.0.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.9.0",
+    "react-dom": ">=16.9.0"
   }
 }
